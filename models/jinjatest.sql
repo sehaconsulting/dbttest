@@ -1,11 +1,14 @@
 {{ config(materialized='table') }}
-{% set var schema_names=('brand1', 'brand2', 'brand3') %}
+{% set schema_name = ('Ali', 'Zubdah', 'Rayyan') %}
 
-{% for schema in schema_names %}
-(
-  select
-    '{{ schema }}' as schema_name
-)
+{% for schema in schema_name %}
+
+select
+{{ schema }}
+
 {% if not loop.last %}
 union all
 {% endif %}
+{% endfor %}
+
+
