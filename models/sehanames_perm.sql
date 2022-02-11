@@ -1,4 +1,4 @@
-{{ config(materialized='table', transient=false) }}
+{{ config(materialized='table') }}
 
 select 1 as id, 'pat 0' as patname
 union all
