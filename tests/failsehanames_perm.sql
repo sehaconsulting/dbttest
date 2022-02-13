@@ -1,0 +1,1 @@
+select * from {{ ref('sehanames_perm') }} where id = 1
