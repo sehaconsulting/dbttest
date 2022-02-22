@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: sehanames_perm
+  - name: dallasbitest
     columns:
       - name: patname
         tests:
