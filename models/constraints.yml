@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: sehaconstraints
+  - name: dallasbitest
     description: testing unique constraints
     columns:
       - name: id
