@@ -37,13 +37,13 @@ models:
     example:
       materialized: view
     pra:
-      +schema: TeamA
+      +schema: pra
       +database: Dev
     prb:
-      +schema: TeamB
+      +schema: prb
       +database: Dev
     prc:
-      +schema: TeamC
+      +schema: prc
       +database: Dev
 vars:
   'dbt_date:time_zone': 'America/New_York'
