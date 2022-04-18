@@ -38,13 +38,13 @@ models:
       materialized: view
     pra:
       +schema: pra
-      +database: Dev
+      +database: "{{ env_var('DBT_DATABASE')}}"
     prb:
       +schema: prb
-      +database: Dev
+      +database: "{{ env_var('DBT_DATABASE')}}"
     prc:
       +schema: prc
-      +database: Dev
+      +database: "{{ env_var('DBT_DATABASE')}}"
 
 vars:
   'dbt_date:time_zone': 'America/New_York'
