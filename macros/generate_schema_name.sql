@@ -4,7 +4,8 @@
     {%- if custom_schema_name is none -%}
 
         {{ default_schema }}
-    {%- elif target.name == 'dev' -%}
+
+    {%- elif target.name == 'qa' -%}
         {{ env_var('DBT_SCHEMA')}}
 
     {%- else -%}
