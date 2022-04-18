@@ -36,6 +36,15 @@ models:
     # Applies to all files under models/example/
     example:
       materialized: view
+    pra:
+      +schema: pra
+      +database: Dev
+    prb:
+      +schema: prb
+      +database: Dev
+    prc:
+      +schema: prc
+      +database: Dev
 
 vars:
   'dbt_date:time_zone': 'America/New_York'
