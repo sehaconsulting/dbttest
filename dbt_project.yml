@@ -41,7 +41,7 @@ models:
       +database: "{{ env_var('DBT_DATABASE')}}"
     prb:
       +schema: prb
-      +database: QA
+      +database: "{{ env_var('DBT_DATABASE')}}"
     prc:
       +schema: prc
       +database: "{{ env_var('DBT_DATABASE')}}"
