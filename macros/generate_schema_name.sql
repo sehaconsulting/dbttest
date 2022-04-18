@@ -9,7 +9,7 @@
 
     {%- else -%}
 
-        {{ custom_schema_name | trim }}
+         {{ default_schema }}_{{ custom_schema_name | trim }}
 
     {%- endif -%}
 
