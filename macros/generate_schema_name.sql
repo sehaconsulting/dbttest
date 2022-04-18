@@ -4,14 +4,12 @@
     {%- if custom_schema_name is none -%}
 
         {{ default_schema }}
-
-    {%- elif custom_schema_name is not none -%}
-
-        {{ custom_schema_name | trim }}
+    {%- elif target.name == 'dev' -%}
+        {{ env_var('DBT_SCHEMA')}}
 
     {%- else -%}
 
-        {{ default_schema }}_{{ custom_schema_name | trim }}
+         {{ custom_schema_name | trim }}
 
     {%- endif -%}
 

@@ -45,5 +45,7 @@ models:
     prc:
       +schema: prc
       +database: "{{ env_var('DBT_DATABASE')}}"
+
+
 vars:
   'dbt_date:time_zone': 'America/New_York'
