@@ -36,14 +36,6 @@ models:
     # Applies to all files under models/example/
     example:
       materialized: view
-    pra:
-      +schema: pra
-      
-    prb:
-      +schema: prb
-      
-    prc:
-      +schema: prc
       
 
 
