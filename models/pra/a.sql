@@ -1,5 +1,5 @@
 {{ config(materialized='table') }}
-select 'ali' as name1
+select 'alir' as name1
 union all
 select 'zubdah' as name1
 union all
