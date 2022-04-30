@@ -1,1 +1,1 @@
-select * from {{ ref('dallasbitest') }} where id = 1
+select * from {{ ref('dallasbitest') }} where id = 2
