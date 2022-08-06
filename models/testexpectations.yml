@@ -1,9 +1,0 @@
-version: 2
-
-models:
-  - name: sehanames_perm
-    columns:
-      - name: patname
-        tests:
-          - dbt_expectations.expect_column_values_to_be_of_type:
-                column_type: VARCHAR

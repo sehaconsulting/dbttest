@@ -1,1 +1,0 @@
-select * from {{ ref('dallasbitest') }} where id = 2
