@@ -9,12 +9,7 @@ config-version: 2
 # This setting configures which "profile" dbt uses for this project.
 profile: 'default'
 
-sources:
-  - name: crsrc
-    schema: raw
-    tables:
-      - name: epic_order
-      - name: epic_order_cr_stat_alter
+
 
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be

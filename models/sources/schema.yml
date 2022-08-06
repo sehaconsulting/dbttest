@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: crsrc
+    schema: raw
+    tables:
+      - name: epic_order
+      - name: epic_order_cr_stat_alter
