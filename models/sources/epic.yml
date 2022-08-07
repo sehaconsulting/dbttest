@@ -5,3 +5,5 @@ sources:
     tables:
       - name: epic_order
       - name: epic_order_cr_stat_alter
+      - name: epic_diagnosis
+      - name: epic_diagnosis_cr_stat_alter
